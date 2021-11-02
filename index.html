@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="styles.css">
+  <title>TeaTunes Music Search</title>
+ </head>
+<body>
+
+  <div class="container">
+    <header>
+     <h1>TeaTunes Music Search</h1>
+    </header>
+    <div class="search">
+      <input type="text" class="input-value" id="input-value" autofocus placeholder="What are you searching?" autocomplete="on">
+      <input type="button" value="Search" class="submitbtn" id="submitbtn">
+      <input type="button" value="Clear" class="deletebtn" id="deletebtn">
+    </div>
+  
+    <div class="loader" id="loader" style="visibility: hidden"></div>
+    <h2 class='hidden-text' style="visibility: hidden">This is what we found:</h2>
+    <div class="result-show" id='result-show'>
+
+
+
+    </div>
+
+  </div>
+
+
+  <button id="back2Top" title="Go to top">&#10148;</button>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
